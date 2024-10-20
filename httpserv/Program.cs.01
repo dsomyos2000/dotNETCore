@@ -1,0 +1,29 @@
+﻿// See https://aka.ms/new-console-template for more information
+// Console.WriteLine("Hello, World!");
+namespace httpserv
+{
+  class Program
+  {
+    private static bool _keepRunning = true;
+
+    static void Main(string[] args)
+    {
+        Console.CancelKeyPress += delegate(object sender, ConsoleCancelEventArgs e)
+        {
+            e.Cancel = true;
+            Program._keepRunning = false;
+        };
+
+        Console.WriteLine("Starting HTTP listener...");
+
+        var httpServer = new HttpServer();
+        httpServer.Start();
+
+        while (Program._keepRunning) { }
+
+        httpServer.Stop();
+
+        Console.WriteLine("Exiting gracefully...");
+    }
+  }
+}
