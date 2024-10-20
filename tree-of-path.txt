@@ -1,0 +1,169 @@
+Folder PATH listing for volume Win10
+Volume serial number is 00520047 4C60:1D49
+C:.
++---.vs
++---CatFile
++---Class-with-IEnumerable
++---Cryptography
++---CSForAll1
++---CSForeach1
++---CSharp-Code-by-Query
++---CSPS1Lib1
+|   +---bin
+|   |   +---Debug
+|   |   |   \---netstandard2.0
+|   |   \---Release
+|   |       \---netstandard2.0
+|   \---obj
+|       +---Debug
+|       |   \---netstandard2.0
+|       \---Release
+|           \---netstandard2.0
++---CSPS1Lib2
+|   +---bin
+|   |   +---Debug
+|   |   |   \---netstandard2.0
+|   |   \---Release
+|   |       \---netstandard2.0
+|   \---obj
+|       +---Debug
+|       |   \---netstandard2.0
+|       \---Release
+|           \---netstandard2.0
++---CSRestSharp1
++---CSRestSharp2
++---Decrpyt-AES-Cryptography
++---Decrypt-AesManaged
++---Dictionary-example-1
++---Encrypt-AesManaged
++---example-dotnet-api
+|   +---Controllers
+|   \---Properties
++---FSClasslib1
++---FSClasslib2
++---FSClasslib3
++---FSClasslib4
++---FSharpAPI
++---FSharpAPI2
++---FSharpHttpClient
++---FSharpTest1
++---FSharpTest2
++---FSharpTest3
++---FSPS1Lib1
+|   +---bin
+|   |   +---Debug
+|   |   |   \---netstandard2.0
+|   |   \---Release
+|   |       \---netstandard2.0
+|   \---obj
+|       +---Debug
+|       |   \---netstandard2.0
+|       \---Release
+|           \---netstandard2.0
++---FSPS1Lib2
+|   +---bin
+|   |   +---Debug
+|   |   |   \---netstandard2.0
+|   |   \---Release
+|   |       \---netstandard2.0
+|   \---obj
+|       +---Debug
+|       |   \---netstandard2.0
+|       \---Release
+|           \---netstandard2.0
++---FSRestSharp1
++---FSTestLib1
++---FSTestLib2
++---FunctionDelegate
++---FunctionDelegate2
++---Gen-AES-Cryptography
++---GetStringAsync1
++---HttpClient1
++---HttpClient2
++---HttpClient2A
++---HttpClient2B
++---HttpClient3
++---HttpListener
++---HttpsClient2
++---HttpsClient3
++---httpserv
++---HttpServ1
++---HttpServ2
++---HttpServ3
++---HttpServ3A
++---HttpServBearer1
++---IEnumerable-from-where-select
++---IEnumerable-to-from-Array
++---LearnC#
++---List-GetEnumerator
++---MyPowerShell
+|   +---bin
+|   |   +---Debug
+|   |   |   \---netstandard2.0
+|   |   \---Release
+|   |       \---netstandard2.0
+|   \---obj
+|       +---Debug
+|       |   \---netstandard2.0
+|       \---Release
+|           \---netstandard2.0
++---Object-add-by-Plus-Sign
++---RESTFulGet1
++---RESTFulHead1
++---Sample-CSharp-Code
++---SslClient
++---StopAPI2
++---StopHTTP2
++---SwaggerAPI1
+|   +---.vscode
+|   +---src
+|   |   +---bin
+|   |   |   +---Debug
+|   |   |   |   \---netcoreapp2.0
+|   |   |   \---Release
+|   |   |       \---netcoreapp2.0
+|   |   +---Controllers
+|   |   |   \---v1
+|   |   +---obj
+|   |   |   +---Debug
+|   |   |   |   \---netcoreapp2.0
+|   |   |   \---Release
+|   |   |       \---netcoreapp2.0
+|   |   \---ViewModel
+|   \---tests
+|       +---bin
+|       |   +---Debug
+|       |   |   \---netcoreapp2.0
+|       |   \---Release
+|       |       \---netcoreapp2.0
+|       \---obj
+|           +---Debug
+|           |   \---netcoreapp2.0
+|           \---Release
+|               \---netcoreapp2.0
++---Test-UPD-Reg
++---TestWebApi43
++---VBGetAPI
++---VBPS1Lib1
+|   +---bin
+|   |   +---Debug
+|   |   |   \---netstandard2.0
+|   |   \---Release
+|   |       \---netstandard2.0
+|   \---obj
+|       +---Debug
+|       |   \---netstandard2.0
+|       \---Release
+|           \---netstandard2.0
++---VBPS1Lib2
+|   +---bin
+|   |   +---Debug
+|   |   |   \---netstandard2.0
+|   |   \---Release
+|   |       \---netstandard2.0
+|   \---obj
+|       +---Debug
+|       |   \---netstandard2.0
+|       \---Release
+|           \---netstandard2.0
+\---VBRestSharp1
