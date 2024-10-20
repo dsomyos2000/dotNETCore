@@ -1,0 +1,20 @@
+[Windows 11]
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe
+C:\Windows\Microsoft.NET\Framework\v3.5\csc.exe
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+C:\Windows\Microsoft.NET\Framework64\v2.0.50727\csc.exe
+C:\Windows\Microsoft.NET\Framework64\v3.5\csc.exe
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+C:\Windows\WinSxS\amd64_netfx-csharp_compiler_csc_b03f5f7f11d50a3a_10.0.22000.1_none_53953f4ad73d0675\csc.exe
+C:\Windows\WinSxS\amd64_netfx35linq-csharp_31bf3856ad364e35_10.0.22000.1_none_6d6f4cb018f2ec3c\csc.exe
+C:\Windows\WinSxS\amd64_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15806.0_none_76ec1420387eb344\csc.exe
+C:\Windows\WinSxS\x86_netfx-csharp_compiler_csc_b03f5f7f11d50a3a_10.0.22000.1_none_9b427621ebb92f7b\csc.exe
+C:\Windows\WinSxS\x86_netfx35linq-csharp_31bf3856ad364e35_10.0.22000.1_none_1150b12c60957b06\csc.exe
+C:\Windows\WinSxS\x86_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15806.0_none_be994af74cfadc4a\csc.exe
+[SOMYOS_DUA_DUA]
+c:\windows\WinSxS\amd64_netfx-csharp_compiler_csc_b03f5f7f11d50a3a_10.0.19041.1_none_77b40a18a99e4f02\csc.exe
+c:\windows\WinSxS\amd64_netfx35linq-csharp_31bf3856ad364e35_10.0.19041.1_none_cd1cbc8db3875f47\csc.exe
+c:\windows\WinSxS\amd64_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15805.0_none_76eb13d6387f99ed\csc.exe
+c:\windows\WinSxS\x86_netfx-csharp_compiler_csc_b03f5f7f11d50a3a_10.0.19041.1_none_bf6140efbe1a7808\csc.exe
+c:\windows\WinSxS\x86_netfx35linq-csharp_31bf3856ad364e35_10.0.19041.1_none_70fe2109fb29ee11\csc.exe
+c:\windows\WinSxS\x86_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15805.0_none_be984aad4cfbc2f3\csc.exe

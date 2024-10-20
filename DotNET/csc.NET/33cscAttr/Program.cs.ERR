@@ -1,0 +1,120 @@
+using System;
+
+namespace ConsoleApp1
+{
+    /// <summary>
+    /// All Roles in our scenario
+    /// </summary>
+    public enum UniversityRoles
+    {
+        Admin,
+        Master,
+        Employee,
+        Student
+    }
+
+    /// <summary>
+    /// This attribute will check the Max Length of Properties/fields
+    /// </summary>
+    [AttributeUsage(AttributeTargets.Class | AttributeTargets.Struct, AllowMultiple = true)]
+    public class ValidRoleForAccess : Attribute
+    {
+        public ValidRoleForAccess(UniversityRoles role)
+        {
+            Role = role;
+        }
+        public UniversityRoles Role { get; private set; }
+
+    }
+
+
+    /// <summary>
+    /// we suppose that just admins and masters can define new Lesson
+    /// </summary>
+    [ValidRoleForAccess(UniversityRoles.Admin)]
+    [ValidRoleForAccess(UniversityRoles.Master)]
+    public class Lesson
+    {
+        public Lesson(int id, string name, DateTime startTime, User owner)
+        {
+            var lessType = typeof(Lesson);
+            var validRolesForAccesses = lessType.GetCustomAttributes<ValidRoleForAccess>();
+
+            if (validRolesForAccesses.All(x => x.Role.ToString() != owner.GetType().Name))
+            {
+                throw new Exception("You are not Allowed to define a new lesson");
+            }
+            
+            Id = id;
+            Name = name;
+            StartTime = startTime;
+            Owner = owner;
+        }
+        public int Id { get; private set; }
+        public string Name { get; private set; }
+        public DateTime StartTime { get; private set; }
+
+        /// <summary>
+        /// Owner is some one who define the lesson in university website
+        /// </summary>
+        public User Owner { get; private set; }
+
+    }
+
+    public abstract class User
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime DateOfBirth { get; set; }
+    }
+
+
+    public class Master : User
+    {
+        public DateTime HireDate { get; set; }
+        public Decimal Salary { get; set; }
+        public string Department { get; set; }
+    }
+
+    public class Student : User
+    {
+        public float GPA { get; set; }
+    }
+
+
+
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            #region  exampl1
+
+            var master = new Master()
+            {
+                Name = "Hamid Hasani",
+                Id = 1,
+                DateOfBirth = new DateTime(1994, 8, 15),
+                Department = "Computer Engineering",
+                HireDate = new DateTime(2018, 1, 1),
+                Salary = 10000
+            };
+            var math = new Lesson(1, "Math", DateTime.Today, master);
+
+            #endregion
+
+            #region exampl2
+            var student = new Student()
+            {
+                Name = "Hamid Hasani",
+                Id = 1,
+                DateOfBirth = new DateTime(1994, 8, 15),
+                GPA = 16
+            };
+            var literature = new Lesson(2, "literature", DateTime.Now.AddDays(7), student);
+            #endregion
+
+            Console.ReadLine();
+        }
+    }
+}

@@ -1,0 +1,12 @@
+C:\Windows\Microsoft.NET\Framework\v2.0.50727\vbc.exe
+C:\Windows\Microsoft.NET\Framework\v3.5\vbc.exe
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\vbc.exe
+C:\Windows\Microsoft.NET\Framework64\v2.0.50727\vbc.exe
+C:\Windows\Microsoft.NET\Framework64\v3.5\vbc.exe
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\vbc.exe
+C:\Windows\WinSxS\amd64_netfx-vb_compiler_b03f5f7f11d50a3a_10.0.22000.1_none_950babc05063dd9e\vbc.exe
+C:\Windows\WinSxS\amd64_netfx35linq-vb_compiler_orcas_31bf3856ad364e35_10.0.22000.1_none_ec45f23cf429bbd8\vbc.exe
+C:\Windows\WinSxS\amd64_netfx4-vbc_exe_b03f5f7f11d50a3a_4.0.15806.0_none_96eed05805687d60\vbc.exe
+C:\Windows\WinSxS\x86_netfx-vb_compiler_b03f5f7f11d50a3a_10.0.22000.1_none_dcb8e29764e006a4\vbc.exe
+C:\Windows\WinSxS\x86_netfx35linq-vb_compiler_orcas_31bf3856ad364e35_10.0.22000.1_none_902756b93bcc4aa2\vbc.exe
+C:\Windows\WinSxS\x86_netfx4-vbc_exe_b03f5f7f11d50a3a_4.0.15806.0_none_de9c072f19e4a666\vbc.exe
